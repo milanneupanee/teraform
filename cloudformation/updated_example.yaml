@@ -1,0 +1,9 @@
+Resources:
+  MyInstance:
+    Type: AWS::Instance
+    Properties:
+      InstanceType: t2.micro
+      ImageId: #imageid from AMI
+      Tags: 
+        - Key: "Name"
+          Value: "1st instance"
